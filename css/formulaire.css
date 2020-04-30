@@ -1,0 +1,35 @@
+.modal-formulaire .modal-header
+{
+	background-color: background: #0b2040;
+	text-align: center;
+	border-bottom:6px solid silver;
+}
+
+
+.modal-formulaire .modal-body
+{
+	
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+
+.modal-formulaire .modal-dialog
+{
+	margin-top: 0px !important;
+}
+
+
+.modal-formulaire .modal-content
+{
+	
+	max-width: 470px;
+	border-radius: 0px;
+}
+
+.modal-formulaire form
+{
+	
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}

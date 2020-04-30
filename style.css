@@ -1,0 +1,420 @@
+/* STRUCTURE GENERAL */
+
+
+/* BODY */
+body {
+    font-family: "Californian FB", Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    background-image: url(http://kfsolution.ch//wp-content/themes/Kfsolutionv1/Images/Motif-contact.png);    
+}
+
+a {
+    color: white;
+    padding-left: 8px;
+    letter-spacing: 1pt;
+}
+
+a:focus,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.bleu{
+	text-align: left;
+    color: #1B4973;
+    letter-spacing: 1px;
+}
+	
+/* FIN CSS BODY */
+
+
+/* NAVIGATION */
+
+.navbar-nav {
+    margin-top: 46px;
+    padding-left: 50px;
+    float: right;
+}
+.navbar-header {
+    height: 120px;
+    background: #0b2040;
+}
+.navbar-brand img {
+    width: 159px;
+    margin-top: -5px;
+    margin-left: -26px;
+    height: 95px;
+}
+
+
+.navbar-inverse {
+    border-radius: 0px !important;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.9 !important;
+    border-bottom: 5px solid silver !important;
+    border-top: 5px solid silver !important;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    letter-spacing: 4px;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus,.navbar-inverse .navbar-nav > li > a::selection {
+   border: 1px solid silver;
+}
+
+
+#myNavbar {
+    width: 100%;
+    background: #0b2040 !important;
+}
+
+
+#menu-menu {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#menu-wrap li {
+    display: inline;
+}
+#menu-wrap li>a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    float: right;
+    background: transparent;
+    padding-left: 22px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    padding-top: 6px;
+    vertical-align: middle;
+    position: relative;
+}
+
+
+/* FIN NAVIGATION */
+
+
+
+
+
+/* FOOTER  */
+footer {
+    position: fixed;
+    margin: 0 auto;
+    opacity: 0.9;
+    background-color: #0b2040;
+    color: white;
+    font-size: 12px;
+    border-top: 4px solid silver;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+footer p {
+    padding-top: 20px;
+    padding-left: 24px;
+    margin: 0 auto !important;
+}
+
+
+footer a {
+    font: normal 14px'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: white;
+}
+
+/* FIN CSS FOOTER */
+
+
+
+/*  PAGE CONTACT */
+
+.container-fluid {
+    background-image: url('http://kfsolution.ch//wp-content/themes/Kfsolutionv1/Images/Motif-contact.png');
+}
+
+.container-profil
+{
+	
+	margin-top: 160px;
+	max-width: 544px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.container-profil .titre
+{
+	margin-left: 80px;
+	width: 184px;
+
+}
+.container-profil .titre1
+{
+  margin-left: 130px;
+  width: 210px;
+}
+
+.container-profil .titre1,
+.container-profil .titre
+{
+    border-radius: 109px 10px 134px 10px;
+    -moz-border-radius: 109px 10px 134px 10px;
+    -webkit-border-radius: 109px 10px 134px 10px;
+    padding: 4px;
+    margin-bottom: 20px;
+    background-color: #0b2040;
+    color: white;
+    opacity: 0.3;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.container-profil .profil-bas
+{
+	color :#1B4973;
+	text-align: center;
+	letter-spacing: 1px;
+
+}
+
+.container-profil .avatar
+{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 160px;
+	
+}
+.container-profil .avatar img {
+    width: 160px;
+    height: 185px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.container-profil .info h2{
+
+    font-size: 30px;
+}
+
+.container-profil .container-btn
+{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width:240px;
+}
+
+.container-profil .btn-primary {
+    height: 30px !important;
+	font-size: 13px !important;
+	margin-right:8px;
+	width:109px;
+}
+
+.container-profil .popover-title {
+    text-align: center;
+    opacity: 0.9;
+    background-color: #0b2040;
+    border-bottom: 2px solid silver;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1pt;
+}
+
+.container-profil .fade.in
+{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+/* PAGE COACHING */
+.desc-coaching
+	{
+	max-width: 700px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    
+	}
+
+.desc-coaching p
+{
+	line-height: 36px;
+
+    font-size: 17px;
+}
+
+.coaching
+{
+	text-align: justify;
+    padding-bottom: 10px;
+    font-size: 19px;
+    line-height: 37px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 180px;
+
+}
+
+
+.container-type-coaching
+	{
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 900px;
+		margin-bottom: 100px;
+	}
+
+.Proverbe em,
+.Proverbe {
+    font-size: 18px;
+    font-family: Californian FB;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.poesie
+{
+	font-size: 30px;
+	font-family: 'Dancing Script', cursive;
+	
+}
+	
+	
+	
+	
+	.titreSolution
+	{
+	
+color: white;
+    position: absolute;
+    padding-bottom: 0px;
+    margin: 0px;
+    background-color: #0b2040;
+    height: 46px;
+    padding: 15px;
+    opacity: 0.8;
+    margin-top: 205px;
+    width: 273px;
+    font-size: 11px;
+    letter-spacing: 7px;
+    font-family:Calibri Ligth;
+    padding-left: 32px;
+
+	}
+	
+	
+.post-thumbnail img {
+    width: 299px;
+    height: 300px;
+    transform: scale(1);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    }
+
+.item {
+  position: relative;
+  margin: 2%;
+  overflow: hidden;
+  width: 275px;
+}
+.item img {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.grayscale img
+{
+width: 300px!important;
+height: 240px!important
+	
+}
+
+/*  CODE CSS POUR LA MODAL BOX  PAGE PRICIPALE */
+
+.modal-header {
+    background-color: #0b2040;
+    border-bottom: 1px solid #0b2040;
+    }
+    
+.modal-body {
+    background-color: #0b2040;
+   
+}
+.modal-body .titreKarin {
+    padding-left: 350px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+
+.modal-dialog {
+    margin-top: 240px;
+}
+
+
+#myModal p {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 14px;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+
+
+
+.btn-block
+{
+	
+	
+	height: 35px !important;
+    font-size: 14px !important;
+    letter-spacing: 4px;
+	text-transform: uppercase;
+	background-color: #0b2040;
+    opacity: 0.8;
+}
+
+
+/* Formulaire de contact  */
+
+.wpcf7-form .wpcf7-form-control wpcf7-submit
+{
+	background: #0b2040;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+
+}
+
+
+

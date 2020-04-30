@@ -1,0 +1,112 @@
+/* CSS appliqué aux petits écrans */
+	@media (max-width: 1024px) {
+
+
+.grayscale
+{
+	margin-left: auto !important;
+    margin-right: auto !important;
+	
+}
+.navbar-brand img {
+    width: 147px !important;
+    margin-top: -5px;
+    margin-left: -15px;
+    height: 95px;
+}
+
+.navbar-brand img :hover
+{
+  width: 130px !important;
+}
+
+.container
+{
+ margin-bottom:0px !important;
+
+}
+
+.navbar-inverse
+{
+height: 122px !important;
+}
+
+#myNavbar
+{
+        height: auto!important;
+}
+
+.navbar-header {
+    height: 100px !important;
+}
+
+.navbar-nav {
+    margin-top: 40px !important;
+    float: left;
+}
+
+
+.grayscale 
+{
+	 margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+	
+	
+}
+ 
+
+}
+
+
+/* CSS appliqué aux petits écrans */
+	@media (max-width: 1024px) {
+		 .Proverbe
+		{
+			font-size:12px;
+			font-family: Californian FB;
+			letter-spacing:4px;
+		}
+			 .coaching
+		{
+			  padding-left:0px;
+    padding-right: 0px;
+		}
+		
+		
+		#myModal p
+		{
+			font-size:22px;
+			text-align:center;	
+			font-family: 'Dancing Script', cursive;
+			padding-top: 0px !important;
+			padding-bottom:0px !important;
+			line-height: 20px;
+			margin-bottom: 0px;
+			display:block;
+		}
+		
+		.titreKarin
+		{
+			display:block;
+			padding-left:0px !important;
+			margin-top:20px;
+		}
+		.modal-header
+		{
+			padding-top:2px !important;
+			padding-bottom:4px !important;
+		}
+	}
+
+
+/* CSS appliqué aux petits écrans */
+	@media (max-width: 1024px) {
+.container-profil .titre1
+{
+	margin-left: 0px;
+	
+}
+
+
+}
